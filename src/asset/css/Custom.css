@@ -1,0 +1,523 @@
+/* header-area-start */
+
+.navTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff !important;
+    font-size: 25px;
+    text-decoration: none;
+}
+.navTitleScroll{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0073e6 !important;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.NavBackground{
+    -webkit-transition:background-color 400ms liner ;
+    -moz-transition:background-color 400ms liner ;
+    -o-transition:background-color 400ms liner ;
+    transition:background-color 400ms liner ;
+    background-color: rgba(00, 00, 00, 0.1) !important;
+}
+.NavBackgroundScroll{
+    -webkit-transition:background-color 400ms liner ;
+    -moz-transition:background-color 400ms liner ;
+    -o-transition:background-color 400ms liner ;
+    transition:background-color 400ms liner ;
+    background-color: rgba(0, 0, 0, 0.4 ) !important;
+    box-shadow: 0 0 6px 0 rgba(0, 115, 230, 0.5);
+}
+
+.NavItem{
+    text-decoration: none !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff ;
+}
+.NavItem:hover{
+    text-decoration: none !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: blue;
+    text-decoration: none;
+}
+
+.NavItemScroll{
+    text-decoration: none !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+/* header-area-end */
+
+
+/* slider-area-start */
+
+
+.topFixedBanner{
+    background-image: url("../image/banner.png");
+    background-attachment: fixed;
+    min-height: 550px;
+    /* background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* background-size: cover; */
+}
+
+.toBannerOverLay{
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.topContent{
+    margin-top: 9rem;
+
+}
+.topBannerTextAll{
+    margin-top: 70px !important;
+}
+.topTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 48px;
+}
+.topSubTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+/* slider-area-end */
+
+/* service-area-start */
+
+
+.serviceMainTitle{
+    color: blue;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.serviceCard{
+    margin: 5px 5px 5px 5px;
+    padding: 60px 30px 60px 30px;
+    height: 22rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.serviceCard:hover{
+    box-shadow: 0 0 9px 0 rgba(0, 115, 230, 0.2);
+}
+.serviceName{
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.service-P{
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #7F7E7E;
+}
+
+
+/* service-area-end */
+
+
+/* Technology-area-start */
+
+.des{
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+/* Technology-area-end */
+
+
+
+
+/* summary-area-start */
+
+
+
+.SummarySection{
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+
+.SummaryBanner{
+    background-image: url("../image/banner.png");
+    background-attachment: fixed;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-size: cover;
+}
+
+.SummaryBannerOverLay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.countNumber{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.countTitle{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.countSection{
+    padding-top: 14%;
+}
+
+.CardTitle{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.CardSubTitle{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardIcon{
+    color: #0073e6;
+    font: 16px;
+}
+.cardWork{
+    border-radius: 5px;
+    margin-top: 11%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* summary-area-end */
+
+
+/* recent-project-start */
+
+
+
+.projectCard{
+    border-radius: 5px;
+    border: none !important;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    margin: 2px 2px 2px 2px;
+    padding-bottom: 40px;
+    transition: .3s;
+}
+
+.projectCard:hover{
+    border-radius: 5px;
+    border: none !important;
+    box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
+    margin: 2px 2px 2px 2px;
+    background: rgba(0, 0, 0, 0.6 );
+    color: #fff;
+}
+
+.projectCardTitle{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.projectCardDes{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.projectCardBtn{
+    margin-top: 10px;
+    padding: 10px 50px !important;
+    font-weight: 600;
+    color: #fff !important;
+    background: #7F7E7E !important;
+}
+.projectCardBtn:hover{
+    background-color: rgb(148, 169, 227) !important;
+    color: rgb(229, 241, 242) !important;
+    font-weight: 600;
+}
+.projectCardBottom{
+    padding-bottom: 120px;
+}
+
+
+.projectCardAll{
+    padding-top: 5px;
+}
+
+
+/* recent-project-end */
+
+
+
+
+/* Courses-area-start */
+
+.courseImg{
+    width: 100%;
+}
+.courseTitle{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courseDes{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.courseDetails{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Courses-area-end */
+
+
+/* video-area-start */
+
+
+.videoCard{
+    padding: 6rem 3rem 6rem 3rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    background-color: #fff;
+    margin: 50px auto;
+}
+.videoTitle{
+    color: #0073e6;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.videoDes{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.playBtn{
+    font-size: 48px;
+    color: #0073e6;
+    cursor: pointer;
+}
+
+
+
+/* video-area-end */
+
+
+
+
+/* Client Review-area-start */
+
+.circleImg{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #0073e6;
+}
+
+
+/* Client Review-area-end */
+
+
+/* Footer-area-start */
+
+.footerSection{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.socialLink{
+    text-decoration: none;
+    color: #7F7E7E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.socialLink:hover{
+    text-decoration: none;
+    color: black;
+}
+.socialIcon{
+    font-size: 20px;
+    color: #7F7E7E;
+}
+
+
+/* Footer-area-end */
+
+
+
+
+/*copy-right-area-start*/
+
+.copyRightSection{
+    padding: 30px 0px 30px 0px;
+    background: #0073e6;
+}
+.copyRightLink{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.copyRightLink:hover{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*copy-right-area-end*/
+
+
+/* page-Top-area-start */
+
+
+
+.pageFixedBanner{
+    background-image: url("../image/banner.png");
+    background-attachment: fixed;
+    min-height: 280px;
+     /* background-repeat: no-repeat; */
+    background-position: bottom;
+    /* background-size: cover; */
+}
+
+.pageOverLay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.pageContent{
+    margin-top: 18rem;
+
+}
+.pageTitle{
+    font-weight: 600;
+    color: #fff;
+    font-size: 28px;
+    margin-top: -140px;
+}
+
+
+
+/* page-Top-area-end */
+
+
+/* Contact-form-area-start */
+
+
+.Form-Control:focus{
+    border-radius: 2px !important;
+    color: #0073e6;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+
+
+
+/* Contact-form-area-end */
+
+
+/* details Page area start  */
+
+
+.img{
+    width: 100%;
+}
+
+
+
+/* details Page area end  */
+
+
+
+/* course-details-area-start */
+
+
+.topFixedBanner-course{
+    background-image: url("../image/banner.png");
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+.toBannerOverLay-course{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.topContent-course{
+    margin-top: 10rem;
+
+}
+
+.courseDetailsTitle{
+    color: #fff !important;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.courseDetailsPra{
+    color: #fff !important;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* course-details-area-end */
+
+
+
+
+
